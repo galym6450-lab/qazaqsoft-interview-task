@@ -1,24 +1,41 @@
 {
-  "title": "Основы веб-разработки",
+  "title": "Основы JavaScript",
   "timeLimitSec": 300,
   "passThreshold": 0.7,
   "questions": [
     {
       "id": "q1",
-      "text": "Какой тег HTML используется для самого крупного заголовка?",
-      "options": ["<title>", "<h6>", "<h1>", "<header>"],
-      "correctIndex": 2
+      "text": "Какой тип данных у значения null?",
+      "options": ["object", "null", "undefined", "number"],
+      "correctIndex": 0
     },
     {
       "id": "q2",
-      "text": "Как в CSS задать цвет текста?",
-      "options": ["font-color", "text-color", "color", "font.fill"],
+      "text": "Как объявить константу?",
+      "options": ["let x", "var x", "const x", "static x"],
       "correctIndex": 2
     },
     {
       "id": "q3",
-      "text": "Какой метод используется для HTTP-запроса в браузере (без библиотек)?",
-      "options": ["axios()", "request()", "fetch()", "$.ajax()"],
+      "text": "Что делает оператор '==='?",
+      "options": [
+        "Присваивает значение",
+        "Сравнивает значения с приведением типов",
+        "Сравнивает значения и типы без приведения",
+        "Проверяет существование переменной"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": "q4",
+      "text": "Какой метод удаляет последний элемент массива?",
+      "options": ["push()", "pop()", "shift()", "unshift()"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q5",
+      "text": "Какой цикл гарантированно выполнится хотя бы один раз?",
+      "options": ["for", "while", "do...while", "forEach"],
       "correctIndex": 2
     }
   ]
